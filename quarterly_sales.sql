@@ -1,4 +1,4 @@
-CREATE TABLE quarterly_sales (
+CREATE TABLE quarterly_sales (SELECT* ID FROM employees;
 	employee_id INT REFERENCES employees(id),
 	q1_2022 DECIMAL (10,2),
 	q2_2022 DECIMAL (10,2),
